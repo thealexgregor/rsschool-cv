@@ -1,4 +1,5 @@
 
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@500&display=swap");
 
 * {
@@ -78,3 +79,56 @@
 .linkedin {
   list-style-image: url("../img/linkedin.svg");
 }
+
+/* End of header */
+
+.wrapper {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  max-width: 1190px;
+}
+
+/* start of aside */
+
+aside {
+  max-width: 466px;
+  margin: 5px;
+  padding: 0 5px;
+}
+
+.section_title {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #003d74;
+  margin-bottom: 38px;;
+}
+
+.info {
+  margin-top: 86px;
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+.section_description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 165%;
+  color: #252932;
+}
+
+
+
+/* font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 165%;
+color: #252932;
+*/
